@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "834274276034",
+    "firebase_url": "https://penta-query.firebaseio.com",
+    "project_id": "penta-query",
+    "storage_bucket": "penta-query.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834274276034:android:0f1cc239913705ba",
+        "android_client_info": {
+          "package_name": "com.example.quora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834274276034-kjn461b5tvd08napeq1frj61g1a7m5v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3f-1ZUlmCKD9Q8_CrXn_voW_brc2Qrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834274276034-kjn461b5tvd08napeq1frj61g1a7m5v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

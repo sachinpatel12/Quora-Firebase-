@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pocanegra" />
+
+        <android.support.v7.widget.SearchView
+            android:background="#66342F4B"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search your Question"></android.support.v7.widget.SearchView>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginTop="43dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:onClick="onclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/icons8plus"
+        android:tint="#FFF" />
+
+
+</RelativeLayout>
